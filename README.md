@@ -21,6 +21,7 @@ $ npm install hexo-tag-echarts4 --save
 ```
 
 ``` javascript 实例
+{% echarts 400 '85%' %}
 var data = [];
 
 for (var u = 0; u <= 10; u += 0.2) {
@@ -47,6 +48,7 @@ option = {
 		}
 	}]
 };
+{% endecharts %}
 ```
 
 For more details, visit [Demo](http://kchen.cc/2016/11/05/echarts-in-hexo/) here.
